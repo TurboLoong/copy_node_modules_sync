@@ -1,0 +1,47 @@
+{
+  "name": "copy-node-modules-sync",
+  "version": "0.0.1",
+  "description": "Copy node modules listed in 'dependencies' or 'devDependencies' field of package.json to destination folder synchronoursly",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TurboLoong/copy_node_modules_sync.git"
+  },
+  "bin": {
+    "copy-node-modules": "./bin/copy-node-modules-sync.js"
+  },
+  "scripts": {
+  },
+  "keywords": [
+    "copy",
+    "deployment",
+    "package"
+  ],
+  "engine": {
+    "node": ">=0.4"
+  },
+  "author": {
+    "name": "Turbo Loong",
+    "email": "turboloong@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.0.0-rc.4",
+    "jsonfile": "^2.3.0",
+    "lodash": "^4.12.0",
+    "mkdirp": "^0.5.1",
+    "copysync": "0.0.1",
+    "semver": "^5.1.0"
+  },
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/TurboLoong/copy_node_modules_sync/issues"
+  },
+  "homepage": "https://github.com/TurboLoong/copy_node_modules_sync#readme",
+  "_npmUser": {
+    "name": "turbo",
+    "email": "turboloong@gmail.com"
+  },
+  "directories": {},
+  "licenses": "MIT"
+}
